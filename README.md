@@ -1,16 +1,30 @@
-# flutter_test_assignment
+# Flutter Test Assignment
 
-A new Flutter project.
+This project is a Flutter application designed to manage and display information about floors in a building, with notifications for floor status changes. It uses the BLoC state management pattern and follows the principles of Clean Architecture.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Floor Management: Display and manage floors of a building.
+- Notifications: Send notifications when the current floor changes.
+- Animation: Smooth 3-second animation for floor change indication.
 
-A few resources to get you started if this is your first Flutter project:
+## Packages Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- flutter_bloc: ^8.1.5
+BLoC state management library for Flutter.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- sqflite: ^2.3.3+1
+
+SQLite plugin for Flutter to manage local database.
+- path: ^1.9.0
+Library to manipulate file and directory paths.
+
+- equatable: ^2.0.5
+Simplifies equality comparisons in Dart.
+
+- flutter_local_notifications: ^17.1.2
+Plugin to show local notifications in a Flutter application.
+
+## License
+
+This project is licensed under the MIT License.
